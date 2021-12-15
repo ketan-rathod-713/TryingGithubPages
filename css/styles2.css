@@ -1,0 +1,56 @@
+
+.content6{
+    
+
+}
+.content6 div{
+    margin: 20px 0px;
+}
+.content6input{
+    width: 70%;
+    max-width: 100%; 
+    border: 2px solid gray;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 20px;
+    padding: 5px;
+   
+}
+.textarea{
+    max-width: 100%;
+    min-width: 50%;
+    min-height:50px;
+}
+
+button{
+    background-color: rgb(146, 176, 182);
+    cursor: pointer;
+    width: 100px;
+    height: 25px;
+    border: 2px solid rgb(255, 255, 255);
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 9px;
+    
+}
+
+
+
+
+
+/* footer */
+
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.footerlogos{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    margin: 30px 10px 0px 10px;
+}

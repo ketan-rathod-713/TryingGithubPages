@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="/p7_ui/css/styles1.css">
+    <link rel="stylesheet" href="/p7_ui/css/styles2.css">
+    <link rel="stylesheet" href="/p7_ui/css/styles3.css">
+    <link rel="stylesheet" href="/p7_ui/css/utils.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="navfirst navbaritems"><a href="">Home</a></div>
+        <div class="navsecond navbaritems"><a href="">AboutMe</a></div>
+        <div class="navthird navbaritems"><a href="">Contact</a></div>
+    </div>
+    <div class="outerpart">
+        <div class="outerpartintro">
+            <h1 class="blockcenter firstheading">I AM Ketan Rathod</h1>
+            <p class="blockcenter secondheading">Learner | Student | web developer</p>
+
+<!-- it is just for padding inside it -->
+        <div class="innerpart1">
+            <div class="wholecontent">
+                <div class="content1 contentbox">
+                    <h1>About me</h1>
+                    <div class="content1stuff">
+                        <div class="content1stuff1">
+                            <img src="/p7_ui/photos/myphoto.png" alt="">
+                        </div>
+                        <div class="content1stuff2">
+                            <div>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolorum minima quidem deserunt, ipsa vitae animi laborum nemo voluptas aut facilis, quae quo veritatis officiis, est dolorem laudantium eum architecto quod sed! Magni, dolores?
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content2 contentbox">
+                    <h1 class="thirdheading">Education</h1>
+                    <div class="content2stuff">
+                        <div class="content2stuff1">
+                            <h4>2021-2020</h4>
+                            <p class="marginy">Computer Science</p>
+                             <hr>
+                             <p class="marginy">VGEC Ahmedabad</p>
+                        </div>
+                        <div class="content2stuff2">
+                            <h4>2021-2020</h4>
+                            <p class="marginy">Computer Science</p>
+                             <hr>
+                             <p class="marginy">VGEC Ahmedabad</p></div>
+                        <div class="content2stuff3">
+                            <h4>2021-2020</h4>
+                            <p class="marginy">Computer Science</p>
+                             <hr>
+                             <p class="marginy">VGEC Ahmedabad</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content6 contentbox">
+                    <h1>Contact</h1>
+                    <form >
+                        <div><input type="email" name="email" placeholder="Email" class="content6input"></div>
+                        <div> <input type="text" name="subject" placeholder="Subject" class="content6input"></div>
+                        <div><textarea name="message" id="" cols="30" rows="10" placeholder="Enter your message" class="content6input textarea"></textarea></div>
+                        <button type="submit" onclick="submitform">Submit</button>
+                    </form>
+                </div>
+
+               
+            </div>
+        </div>
+        <div class="footer">
+            <h1>Logo</h1>
+            <p>All Rights Reserved</p>
+            <div class="footerlogos">
+                <div class="logo">In</div>
+                <div class="logo">Tw</div>
+                <div class="logo">Fb</div>
+                <div class="logo">Ln</div>
+                <div class="logo">Fb</div>
+            </div>
+
+        </div>
+    </div>
+    <script>
+
+       
+        function submitform(){
+            var input = document.querySelectorAll('input');
+        var textarea = document.querySelector('textarea')
+            console.log(input);
+            console.log(textarea);
+        }
+    </script>
+</body>
+</html>
